@@ -1,6 +1,6 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: auto;
   padding: 2rem;
   text-align: center;
 }
@@ -12,12 +12,28 @@ main {
   column-gap: 2rem;
   width: 50rem;
   height: 35rem;
-  background: #761187;
+  /* background: #761187; */
 }
 
 section {
-  width: 101px;
-  height: 58px;
-  background: #761187;
+  width: 6.4rem;
+  height: 3.6rem;
+  /* background: #761187; */
   border: 1px solid #000000;
+}
+
+@media (max-width: 640px) {
+  #root {
+    margin: auto;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 18rem;
+  }
+  section {
+    width: 4rem;
+  height: 3rem;
+  }
 }

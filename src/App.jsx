@@ -8,11 +8,15 @@ function Color() {
 
   return (
     <div className="App">
-      <main >
-        <section onClick={() => setColor("#871111")}></section>
-        <section onClick={() => setColor("#5A6628")}></section>
-        <section onClick={() => setColor("#113287")}></section>
-        <section onClick={() => setColor(color)}></section>
+      <main style={{ background: color }}>
+        <section onClick={() => setColor("#871111")}
+          style={{ background: "#871111" }}></section>
+        <section onClick={() => setColor("#5A6628")}
+          style={{ background: "#5A6628" }}></section>
+        <section onClick={() => setColor("#113287")}
+          style={{ background: "#113287" }}></section>
+        <section onClick={() => setColor("#761187")}
+          style={{ background: "#761187" }}></section>
       </main>
     </div>
   );
