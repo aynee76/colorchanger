@@ -5,7 +5,7 @@
 Clone or download this repository and run with a local server of open index.html with your favorite browser
 
 ## Preview
-demo
+https://fabulous-profiterole-ed63a1.netlify.app/
 
 ## Prequisite
 - Your browser version must be recent for a better experience
